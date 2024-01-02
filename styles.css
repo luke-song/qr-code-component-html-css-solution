@@ -1,0 +1,41 @@
+body {
+  background-color: #c6d1df;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Heebo", sans-serif;
+}
+
+.container {
+  width: 25%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 10%;
+}
+
+.qr-code {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  /* this margin needs to be contained inside the card */
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 1rem;
+  color: grey;
+  text-align: center;
+  /* use thinner fontfamily */
+  font-weight: 300;
+}
